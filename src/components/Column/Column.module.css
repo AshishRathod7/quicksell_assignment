@@ -1,0 +1,37 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f5f8;
+}
+
+
+.column .card_container {
+    margin-top: 12px; /* Adjust spacing above the cards */
+}
+
+.leftview{
+    margin-left: 0px;
+    display: flex;
+    height: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f5f8;
+    /* background-color: white */
+}
+
+.column .card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    background-color: transparent;
+}
+.name_label {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    
+}
+
