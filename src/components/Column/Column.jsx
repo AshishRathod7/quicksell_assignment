@@ -22,7 +22,7 @@ import FeatureRequestCard from "../Card/FeatureCard";
 const icons = {
   Done: <img src={DoneIcon} alt="Done" />,
   "In progress": <img src={InProgressIcon} alt="In progress" />,
-  Cancelled: <img src={CanceledIcon} alt="Cancelled" />,
+  Cancelled: <img src={CancelledIcon} alt="Cancelled" />,
   Todo: <img src={TodoIcon} alt="Todo" />,
   Backlog: <img src={BacklogIcon} alt="Backlog" />,
   "No priority": <img src={NoPriorityIcon} alt="No Priority" />,
