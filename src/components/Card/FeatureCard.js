@@ -15,7 +15,7 @@ const FeatureRequestCard = ({ id, title, tag,grouping }) => {
         <div className={styles.content}>
           <h2 className={styles.title}>{title}</h2>
           <div  className={styles.inside}>
-            <div className={styles.nafl}>    ...   </div>
+            {grouping === "status" &&<div className={styles.nafl}>  ...  </div>}
             <div className={styles.dot}></div>
             <button className={styles.featureRequestButton}> {tag} </button>
           </div>
