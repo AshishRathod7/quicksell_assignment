@@ -22,7 +22,7 @@ const groupTicketsByStatus = (tickets) => {
       map[obj.status].push(obj);
       return map;
     },
-    { Backlog: [], Todo: [], "In progress": [], Done: [], Canceled: [] }
+    { Backlog: [], Todo: [], "In progress": [], Done: [], Cancelled: [] }
   );
 
   return groups;
