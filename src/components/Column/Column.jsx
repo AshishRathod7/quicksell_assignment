@@ -6,7 +6,7 @@ import { BsThreeDots } from "react-icons/bs";
 // Importing custom SVG icons from assets
 import DoneIcon from "../../assets/Done.svg";
 import InProgressIcon from "../../assets/in-progress.svg";
-import CanceledIcon from "../../assets/Cancelled.svg";
+import CancelledIcon from "../../assets/Cancelled.svg";
 import TodoIcon from "../../assets/To-do.svg";
 import BacklogIcon from "../../assets/Backlog.svg";
 import NoPriorityIcon from "../../assets/No-priority.svg";
@@ -22,7 +22,7 @@ import FeatureRequestCard from "../Card/FeatureCard";
 const icons = {
   Done: <img src={DoneIcon} alt="Done" />,
   "In progress": <img src={InProgressIcon} alt="In progress" />,
-  Canceled: <img src={CanceledIcon} alt="Canceled" />,
+  Cancelled: <img src={CanceledIcon} alt="Cancelled" />,
   Todo: <img src={TodoIcon} alt="Todo" />,
   Backlog: <img src={BacklogIcon} alt="Backlog" />,
   "No priority": <img src={NoPriorityIcon} alt="No Priority" />,
