@@ -10,7 +10,7 @@ const FeatureRequestCard = ({ id, title, tag,grouping }) => {
         <div className={styles.header}>
           <span className={styles.headerText}>{id}</span>
           <span className={styles.statusBubble}></span>
-          <AvatarWithStatus statusColor={"blue"} grouping={grouping} indashBoard={grouping!=="user"}/>
+          <AvatarWithStatus statusColor={"grey"} grouping={grouping} indashBoard={grouping!=="user"}/>
         </div>
         <div className={styles.content}>
           <h2 className={styles.title}>{title}</h2>
